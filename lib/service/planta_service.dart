@@ -1,6 +1,6 @@
 
 
-import 'package:pohanhanapp/model/planta_model.dart';
+import 'package:pohapp/model/planta_model.dart';
 
 abstract class PlantaService{
  Future<List<PlantaModel>> listar();

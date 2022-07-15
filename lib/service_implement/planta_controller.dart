@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:pohanhanapp/model/planta_model.dart';
-import 'package:pohanhanapp/service/planta_service.dart';
+import 'package:pohapp/model/planta_model.dart';
+import 'package:pohapp/service/planta_service.dart';
 
 class PlantaImplement implements PlantaService {
   var httpClient = http.Client();

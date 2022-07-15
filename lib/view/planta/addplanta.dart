@@ -5,9 +5,9 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:pohanhanapp/commons/alerta.dart';
-import 'package:pohanhanapp/model/planta_model.dart';
-import 'package:pohanhanapp/provider/AppProvider.dart';
+import 'package:pohapp/commons/alerta.dart';
+import 'package:pohapp/model/planta_model.dart';
+import 'package:pohapp/provider/AppProvider.dart';
 import 'package:provider/provider.dart';
 
 class AddPlanta extends StatefulWidget {

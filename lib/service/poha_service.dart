@@ -1,7 +1,7 @@
 
 
 
-import 'package:pohanhanapp/model/poha_model.dart';
+import 'package:pohapp/model/poha_model.dart';
 
 abstract class PohaService{
  Future<List<PohaModel>> listar();

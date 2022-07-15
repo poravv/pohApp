@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(pohanhanapp LANGUAGES CXX)
+project(pohapp LANGUAGES CXX)
 
-set(BINARY_NAME "pohanhanapp")
+set(BINARY_NAME "pohapp")
 
 cmake_policy(SET CMP0063 NEW)
 

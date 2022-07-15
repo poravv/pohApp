@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:pohanhanapp/home.dart';
-import 'package:pohanhanapp/provider/AppProvider.dart';
-import 'package:pohanhanapp/view/login/google.dart';
+import 'package:pohapp/home.dart';
+import 'package:pohapp/provider/AppProvider.dart';
+import 'package:pohapp/view/login/google.dart';
 import 'package:provider/provider.dart';
 
 class MyHttpOverrides extends HttpOverrides{

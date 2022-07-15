@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "pohanhanapp" "\0"
+            VALUE "CompanyName", "com.pohapp" "\0"
+            VALUE "FileDescription", "pohapp" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "pohanhanapp" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "pohanhanapp.exe" "\0"
-            VALUE "ProductName", "pohanhanapp" "\0"
+            VALUE "InternalName", "pohapp" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2022 com.pohapp. All rights reserved." "\0"
+            VALUE "OriginalFilename", "pohapp.exe" "\0"
+            VALUE "ProductName", "pohapp" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

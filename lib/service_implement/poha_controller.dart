@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:pohanhanapp/model/poha_model.dart';
-import 'package:pohanhanapp/service/poha_service.dart';
+import 'package:pohapp/model/poha_model.dart';
+import 'package:pohapp/service/poha_service.dart';
 
 class PohaImplement implements PohaService {
   var httpClient = http.Client();

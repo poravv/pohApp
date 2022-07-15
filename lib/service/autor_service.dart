@@ -1,6 +1,6 @@
 
 
-import 'package:pohanhanapp/model/autor_model.dart';
+import 'package:pohapp/model/autor_model.dart';
 
 abstract class AutorService{
  Future<List<AutorModel>> listar();

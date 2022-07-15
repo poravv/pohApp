@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:pohanhanapp/model/autor_model.dart';
-import 'package:pohanhanapp/service/autor_service.dart';
+import 'package:pohapp/model/autor_model.dart';
+import 'package:pohapp/service/autor_service.dart';
 
 class AutorImplement implements AutorService {
   var httpClient = http.Client();
