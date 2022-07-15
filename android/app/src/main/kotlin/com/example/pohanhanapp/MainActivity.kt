@@ -1,4 +1,4 @@
-package com.example.pohanhanapp
+package com.pohapp.pohapp
 
 import io.flutter.embedding.android.FlutterActivity
 

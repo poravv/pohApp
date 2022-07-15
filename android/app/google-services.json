@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "790208210737",
+    "project_id": "pohananapp",
+    "storage_bucket": "pohananapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790208210737:android:733033acdc8a4dc2b73210",
+        "android_client_info": {
+          "package_name": "com.pohapp.pohapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790208210737-n5uanpmvts5g9h29n0sm47r071eiq7i1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pohapp.pohapp",
+            "certificate_hash": "ebda253d3fb108fea3aad07dc9c7460dab6194da"
+          }
+        },
+        {
+          "client_id": "790208210737-ii9g4fiu8dco1pmj1f2vqjpsmb6mr6a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKnQDUayCXtj4fXe9rJIO8GjrfDsvcq-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790208210737-ii9g4fiu8dco1pmj1f2vqjpsmb6mr6a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
