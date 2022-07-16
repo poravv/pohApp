@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:pohapp/home.dart';
 import 'package:pohapp/provider/AppProvider.dart';
 import 'package:pohapp/view/login/google.dart';
+import 'package:pohapp/view/login/perfil.dart';
 import 'package:provider/provider.dart';
 
 class MyHttpOverrides extends HttpOverrides{
@@ -69,6 +70,7 @@ class _BarraState extends State<Barra> {
 
   @override
   Widget build(BuildContext context) {
+    var appProvider = Provider.of<AppProvider>(context);
     return Scaffold(
         appBar: AppBar(
           title: const Text("Poha ÑanApp",style: TextStyle(color: Colors.white),),
@@ -81,9 +83,7 @@ class _BarraState extends State<Barra> {
             Container(
               color: Colors.green,
             ),
-            Container(
-              color: Colors.amber,
-            )
+            const Perfil(),
           ],
         ),
         floatingActionButton: InkWell(
@@ -93,7 +93,7 @@ class _BarraState extends State<Barra> {
         ),
         onTap: (){
           //Navigator.push(context,MaterialPageRoute(builder: (_) => const AddPoha()));
-          loginGoogle.handleSignIn();
+          appProvider.loginGoogle.login();
 
         },),
         //floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
